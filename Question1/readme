@@ -1,0 +1,29 @@
+
+Submission of Question 1 for SDF(CS1023) Assignment 1
+Name: Edward Nathan Varghese
+Roll No: CS22BTECH11020
+
+Assignment Requirments and What My Code Does
+========================================================
+
+-> Made a myshell that simulates the Linux terminal
+-> Implemented 'help' to get help for any command
+    -> Redirects to 'man' command using system()
+-> Added user@hostname path with Linux default colours
+-> Added 'exit' command which breaks out of myshell without killing
+   the program
+-> Added recently used feature for UP and DOWN arrow keys 
+    -> Made use of readline library
+-> Can execute any command using system except 'cd'
+    -> Implemented 'cd' command with chdir() function
+
+How to Run the Code
+=======================================================
+
+-> cd to Question1 directory
+-> make the makefile using 'make'
+    -> If this doesn't work, use the following commands
+        1. find . -type f -exec touch {} +
+        2. make clean
+        3. make
+-> run the program using ./out.o

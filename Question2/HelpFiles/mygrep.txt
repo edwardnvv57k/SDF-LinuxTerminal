@@ -1,0 +1,28 @@
+
+===================================================
+NAME
+     mygrep – retrieves lines with patterns
+
+SYNOPSIS
+     mygrep [-ciln] PATTERN [FILE...]
+
+DESCRIPTION
+     The mygrep utility searches any given input files, selecting lines that match one or more patterns.  By default, a pattern matches an input line if
+     the regular expression (RE) in the pattern matches the input line without its trailing newline.  An empty expression matches every line.  Each
+     input line that matches at least one of the patterns is written to the standard output.
+
+     The following options are available:
+
+     -c  Only a count of selected lines is written to standard output.
+
+     -i  Perform case insensitive matching.  By default, mygrep is case sensitive.
+
+     -l  Only the names of files containing selected lines are written to standard output.
+
+     -n  Each output line is preceded by its relative line number in the file, starting at line 1.  The line number counter is reset for each file
+         processed.
+
+AUTHOR
+     Edward Nathan Varghese
+     CS22BTECH11020
+===================================================   

@@ -1,0 +1,25 @@
+
+===================================================
+NAME
+     myps – reports a snapshot of the current processes.
+
+SYNOPSIS
+     myps [-adej]
+
+DESCRIPTION
+     myps displays information about a selection of the active processes.
+
+     The following options are available:
+
+     -a  List all processees with a terminal (tty).
+
+     -d  Select all processes except session leaders.
+
+     -e  Select all processes.
+
+     -j  Display in Jobs format.
+
+AUTHOR
+     Edward Nathan Varghese
+     CS22BTECH11020
+===================================================  

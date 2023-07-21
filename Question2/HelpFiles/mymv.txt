@@ -1,0 +1,32 @@
+
+===================================================
+NAME
+     mycp – move files
+
+SYNOPSIS
+     mymv [-f | -i | -n] [-v] source ... directory
+
+DESCRIPTION
+     In its first form, the mymv utility renames the file named by the source operand to the destination path named by the target operand.  This form is
+     assumed when the last operand does not name an already existing directory.
+
+     In its second form, mymv moves each file named by a source operand to a destination file in the existing directory named by the directory operand.
+     The destination path for each operand is the pathname produced by the concatenation of the last operand, a slash, and the final pathname component
+     of the named file.
+
+     The following options are available:
+
+     -f  Do not prompt for confirmation before overwriting the destination path.
+         (The -f option overrides any previous -i or -n options.)
+
+     -i  Cause mymv to write a prompt to standard error before moving a file that would overwrite an existing file.  If the response from the standard
+         input begins with the character ‘y’ or ‘Y’, the move is attempted.  (The -i option overrides any previous -f or -n options.)
+
+     -n  Do not overwrite an existing file.  (The -n option overrides any previous -f or -i options.)
+
+     -v  Cause mymv to be verbose, showing files after they are moved.
+
+AUTHOR
+     Edward Nathan Varghese
+     CS22BTECH11020
+===================================================   
